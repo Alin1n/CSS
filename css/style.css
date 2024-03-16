@@ -6,6 +6,7 @@ body {
     font-size: 22px;
     color: aqua;
     background-color: black;
+    padding: 5%;
 }
 
 h1,
@@ -15,6 +16,9 @@ h2 {
 p {
     font-size: 64px;
     color: orangered;
+    border: 4px dashed white;
+    width: 6%;
+    padding: 0.3em;
 }
 
 h1,
@@ -24,8 +28,14 @@ h2 {
     border-left: 0px;
     width: 14%;
 }
-p {
-    border: 4px dashed white;
-    width: 6%;
-    padding: 0.3em;
+h3,
+h4 {
+    text-decoration: overline;
+    padding: 0.6em;
+    text-transform: uppercase;
+    text-align: justify;
+    line-height: 1.5;
+    letter-spacing: 0.2em;
+    word-spacing: 0.1em;
+    font-style: italic;
 }
