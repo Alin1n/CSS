@@ -39,3 +39,14 @@ h4 {
     word-spacing: 0.1em;
     font-style: italic;
 }
+a {
+    cursor: pointer;
+    color: orangered;
+    opacity: 0.9;
+}
+
+a:hover {
+    color: dodgerblue;
+    background-color: red;
+    opacity: 2;
+}
