@@ -1,16 +1,16 @@
-* {
-    font-family: monospace;
-}
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 body {
     font-size: 22px;
     color: aqua;
     background-color: black;
     padding: 5%;
+    font-family: monospace;
 }
 
 h1,
-h2 {
+h2,
+h3 {
     color: rgba(90, 100, 400, 1.3);
 }
 p {
@@ -22,14 +22,15 @@ p {
 }
 
 h1,
-h2 {
+h2,
+h3 {
     border: double 10px red;
     border-right: 0px dotted blue;
     border-left: 0px;
     width: 14%;
 }
-h3,
-h4 {
+h4,
+h5 {
     text-decoration: overline;
     padding: 0.6em;
     text-transform: uppercase;
@@ -49,4 +50,8 @@ a:hover {
     color: dodgerblue;
     background-color: red;
     opacity: 2;
+}
+
+ol {
+    list-style-type: upper-roman;
 }
