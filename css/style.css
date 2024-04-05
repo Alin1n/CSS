@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
+* {
+    padding: 0%;
+}
+
 body {
     font-size: 22px;
     color: aqua;
@@ -40,6 +44,7 @@ h5 {
     word-spacing: 0.1em;
     font-style: italic;
 }
+
 a {
     cursor: pointer;
     color: orangered;
@@ -54,4 +59,12 @@ a:hover {
 
 ol {
     list-style-type: upper-roman;
+    text-align: left;
 }
+
+::marker {
+    color: red;
+    font-size: 1.5em;
+}
+
+
