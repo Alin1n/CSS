@@ -68,6 +68,8 @@ ol {
     font-size: 1.5em;
 }
 
-
-
-
+img {
+    position: absolute;
+    left: 600px;
+    bottom: 650px;
+}
