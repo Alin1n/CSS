@@ -9,7 +9,7 @@ body {
     color: aqua;
     background-color: black;
     padding: 5%;
-    font-family: monospace;             
+    font-family: monospace;
 }
 
 h1,
@@ -37,7 +37,7 @@ h4 {
     width: 14%;
 }
 p1,
-p2{
+p2 {
     text-decoration: overline;
     padding: 0.6em;
     text-transform: uppercase;
@@ -74,4 +74,8 @@ img {
     position: absolute;
     left: 600px;
     bottom: 650px;
+}
+
+p4 {
+    text-align: left;
 }
