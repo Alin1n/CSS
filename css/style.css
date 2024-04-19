@@ -74,6 +74,7 @@ img {
     position: absolute;
     left: 600px;
     bottom: 590px;
+    display: block;
 }
 
 h4 {
