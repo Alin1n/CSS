@@ -75,6 +75,7 @@ img {
     left: 600px;
     bottom: 590px;
     display: block;
+    border-radius: 50%;
 }
 
 h4 {
@@ -94,4 +95,18 @@ ol1 {
 
 .CSS img {
     padding-top: 10px;
+} 
+
+ .background-poza {
+    width: 35%;
 }
+
+.background-poza img {
+    width: 50%;
+    height: ;
+    min-width: 100px;
+    border: 5px solid gray;
+}
+
+
+
