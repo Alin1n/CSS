@@ -68,6 +68,7 @@ img {
     left: 600px;
     bottom: 590px;
     display: block;
+    max-width: 100%;
     border-radius: 50%;
 }
 h4 {
@@ -103,3 +104,4 @@ h4 {
 .list li {
     list-style-type: square;
 }
+
