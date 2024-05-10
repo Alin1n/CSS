@@ -133,3 +133,8 @@ h4 {
     align-items: center;
     padding: 1px;
 }
+
+.CSSversion p {
+    color: whitesmoke;
+    text-decoration: none;
+}
