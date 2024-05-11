@@ -138,3 +138,7 @@ h4 {
     color: whitesmoke;
     text-decoration: none;
 }
+
+.CSSversion summary {
+    font-size: 30px;
+}
