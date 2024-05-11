@@ -1,0 +1,19 @@
+body {
+    font-size: 60px;
+    color: aqua;
+    background-color: black;
+    padding: 5%;
+    font-family: monospace;
+    background-image: url(../img/background\ poza\ website.jpeg);
+}
+
+table,
+tr,
+th,
+td,
+caption {
+    border: 1px solid #eee;
+    font-family: "Courier New", Courier, monospace;
+    border-collapse: collapse;
+    padding: 0.5rem;
+}
