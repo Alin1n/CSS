@@ -64,6 +64,13 @@ li {
     text-align: left;
 }
 
+li:hover {
+    background-color: blue;
+    transition-property: background-color;
+    transition-duration: 2s;
+    transition-delay: 0.3s;
+}
+
 ::marker {
     color: red;
     font-size: 1.5em;
@@ -135,10 +142,22 @@ h4 {
 }
 
 .CSSversion p {
-    color: whitesmoke;
+    color: var(--LIGHTCOLOR);
     text-decoration: none;
 }
 
 .CSSversion summary {
     font-size: 30px;
 }
+
+:root {
+    --LIGHTCOLOR: whitesmoke;
+}
+
+/* details {
+   transition-property: transform;
+   transition-duration: 2s, 0.5s;
+   transition-delay: 0.5s;
+   transform: rotate(360deg);
+} */
+
